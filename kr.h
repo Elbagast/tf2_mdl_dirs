@@ -17,12 +17,12 @@ http://www.cplusplus.com/forum/beginner/1988/
 class KeepRunning
 {
 public:
-	~KeepRunning()
-	{
-		// Whatever code you prefer to keep the program running, e.g.
-		std::cout << "Press ENTER to continue..." << std::endl;
-		std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-	}
+    ~KeepRunning()
+    {
+        // Whatever code you prefer to keep the program running, e.g.
+        std::cout << "Press ENTER to continue..." << std::endl;
+        std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    }
 };
 
 #endif

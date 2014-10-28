@@ -203,6 +203,10 @@ int main(int argc, char** argv)
     }
     */
 
+    /*
+    This is some stuff to commit.
+    */
+
     // Forth output block - results
     std::wcout 
         << L"Directory creation statistics:" << std::endl
